@@ -1,0 +1,26 @@
+{
+  "name": "webmdream",
+  "version": "1.0.0",
+  "description": "webmdream - Convert any URL to clean Markdown",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "mdream": "^0.8.5"
+  },
+  "keywords": [
+    "webmdream",
+    "markdown",
+    "html-to-markdown",
+    "web-scraping",
+    "conversion"
+  ],
+  "author": "",
+  "license": "MIT"
+}
